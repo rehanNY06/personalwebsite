@@ -1,0 +1,90 @@
+div {
+    font-family: monospace;
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    padding: 5px;
+ }
+  
+ nav {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+ }
+  
+.logo {
+    width: 150px;
+    position: relative;
+    bottom: 40px;
+}
+  
+ .items:hover {
+    background-color: white;
+    opacity: 0.5;
+ }
+  
+ a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+
+ #main {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ #mainplushie {
+    width: 200px;
+    display: flex;
+    align-items: flex-end;
+ }
+
+ #information {
+    font-size: 20px;
+ }
+ 
+ #images {
+    width: 50px;
+ }
+
+ #one {
+    display: flex;
+    float: left;
+    margin-left: 1350px;
+    width: 500px;
+    border: 3px solid lightgrey;
+ }
+
+ #two {
+    display: flex;
+    margin-left: 700px;
+    position: relative;
+    bottom: 450px;
+    border: 3px solid lightgrey;
+ }
+
+ #three {
+    width: 500px;
+    display: flex;
+    margin-left: 100px;
+    position: relative;
+    bottom: 1000px;
+    border: 3px solid lightgrey;
+
+ }
+ .gfg {
+    background-color: white;
+    border: 2px solid black;
+    color: green;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    position: relative;
+
+    }
