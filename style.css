@@ -71,7 +71,7 @@ div {
     display: flex;
     margin-left: 100px;
     position: relative;
-    bottom: 1000px;
+    top: 1000px;
     border: 3px solid lightgrey;
 
  }
